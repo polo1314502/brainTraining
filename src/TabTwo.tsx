@@ -1,5 +1,6 @@
 import React from "react";
 import { View, Text, StyleSheet, ScrollView } from "react-native";
+import QuickCountGame from "./components/QuickCountGame";
 
 const TabTwo = () => {
   return (
@@ -14,7 +15,9 @@ const TabTwo = () => {
               alignItems: "center",
               justifyContent: "center",
             }}
-          ></ScrollView>
+          >
+            <QuickCountGame />
+          </ScrollView>
         </View>
       </View>
     </View>
